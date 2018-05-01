@@ -27,8 +27,8 @@ A step by step series of examples that tell you have to get a development env ru
 ## Running the Forecast
 
 - Save sales data as "sales_train.csv" in "data" folder
-- Run "sales-forecast-monthtot-textfeat.ipynb" using "test.csv" stored in "data" folder
-- Forecasts for next month's total sales for each store-item combination outputted as "test.csv"
+- Run "sales-forecast-final.ipynb" using "test.csv" stored in "data" folder
+- Forecasts for next month's total sales for each store-item combination outputted as "forecast.csv"
 
 ## Built With
 
