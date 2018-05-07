@@ -1,0 +1,112 @@
+[33mcommit cd5175c885d9f2a00181b92c0f2483649474594b[m
+Merge: 8c90807 4d69ff2
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Mon May 7 11:42:21 2018 +0000
+
+    Merge branch 'master' of https://github.com/saadk408/Forecast-Sales
+
+[33mcommit 8c90807977f097a6ea1ed819a09d832250502b10[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Mon May 7 11:21:34 2018 +0000
+
+    feat: Testing adding Median Price feature
+    
+    Testing adding the median price for the month for that store-item combo as a feature for the MLPRegressor
+
+[33mcommit 4d69ff2b5a448bcd5117fabd4533017a715e77c8[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Mon May 7 04:26:23 2018 -0700
+
+    Update README.md
+
+[33mcommit 3b4c3798cfed6e77cf3682ee4be867a6e4e66b40[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Mon May 7 11:21:34 2018 +0000
+
+    feat: Testing adding Median Price feature
+    
+    Testing adding the median price for the month for that store-item combo as a feature for the MLPRegressor
+
+[33mcommit 613eff451238ab6d2788d1d5368df897a305c7c0[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Sat May 5 20:45:07 2018 +0000
+
+    refactor: Adjusted model used for Kaggle output to use the newly test model
+    
+    Adjusted the Kaggle model in the "sales-forecast-final.ipynb" to use the newly tested model. Also, moved all testing/tuning notebooks into separate folder.
+
+[33mcommit 8cc679fce956b7bf46699c3fd6c7ad2c10451689[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Tue May 1 02:14:12 2018 -0700
+
+    style: Updated naming, formatting, and commenting of multiple notebooks
+    
+    Updated 'sales-forecast-final.ipynb' and 'sales-forecast-rough.ipynb'
+    with better commenting. Renamed multiple files for easier understanding.
+
+[33mcommit de66b6823cfc8bd466420257489f5afe05cd92db[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Tue May 1 00:09:48 2018 -0700
+
+    Update README.md
+
+[33mcommit a77f5bafddb0d639b0dd0eefd4f7a174e6ad4a3a[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Sun Apr 29 14:43:05 2018 +0000
+
+    Further tuned model to incorporate Tol of 0.00001, Alpha of 0.00001, and random_state of 33
+
+[33mcommit 4830b2495aa1dbfe3a473145dd8108079fc6d90c[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Sat Apr 28 22:14:43 2018 +0000
+
+    Testing different tuning parameters for MLPRegressor in '...tuning.ipynb' file
+
+[33mcommit 602f6ac0df7f82f22d2cee7dc585f293d3d93d1d[m
+Merge: 7090a97 28bb64b
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Tue Apr 24 11:56:10 2018 +0000
+
+    Merge branch 'master' of https://github.com/saadk408/Forecast-Sales
+
+[33mcommit 7090a9747b7bcf1c0c74df7824b18023aff9ad06[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Tue Apr 24 11:55:07 2018 +0000
+
+    Created new notebook for cleaner layout, and changed baseline model to Linear Regression
+
+[33mcommit 28bb64b4141be985751cf63380cf7b29a54cb607[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Mon Apr 23 23:33:22 2018 -0700
+
+    README.md
+
+[33mcommit 0bc0d64e6dbce7470a618f137527315138ed2762[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Tue Apr 24 06:19:45 2018 +0000
+
+    Implemented true forecast for unknown next month from test.csv dataset
+
+[33mcommit 9dba38b6f5d9dd2ce5af36869a324484af8d5135[m
+Author: Ubuntu <ubuntu@ip-172-31-22-224.us-west-2.compute.internal>
+Date:   Fri Apr 20 00:54:54 2018 +0000
+
+    Removed Shop Name and Item Name from features
+
+[33mcommit 90b342b9e4ce0565a02f9016b5ead817a0381cca[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Sat Apr 7 20:55:11 2018 -0700
+
+    Adding GPU Requirements for AWS
+
+[33mcommit 1af1fdb15b38c833dd16222fe9fca8b2bddd47c3[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Sat Apr 7 20:46:54 2018 -0700
+
+    Updated monthly sales forecast to include Text Features. Attempted to use daily sales to predict in ...-daily notebook
+
+[33mcommit 4633aee82b3b0d77cc2f1bafd565a71c4424f3bb[m
+Author: Saad Khan <saadk408@gmail.com>
+Date:   Sun Apr 1 17:02:22 2018 -0700
+
+    Initial commit
