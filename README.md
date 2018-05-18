@@ -24,9 +24,11 @@ A step by step series of examples that tell you have to get a development env ru
 
 - Install Python 3.6 environment with needed packages listed in Prerequistes
 
-## Running the tests
+## Running the Forecast
 
-- Run "sales-forecast-monthtot-textfeat.ipynb" to output "submission.csv", which are forecasts for next month's total sales using the "test.csv" to predict
+- Save sales data as "sales_train.csv" in "data" folder
+- Run "sales-forecast-monthtot-textfeat.ipynb" using "test.csv" stored in "data" folder
+- Forecasts for next month's total sales for each store-item combination outputted as "test.csv"
 
 ## Built With
 
